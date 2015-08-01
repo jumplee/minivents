@@ -24,4 +24,6 @@
       list = events[type] || empty, i=0, j
       while(j=list[i++]) j[0].apply(j[1], args)
     };
+    //ok just enjoy!
+    target.trigger = target.emit;
 }
